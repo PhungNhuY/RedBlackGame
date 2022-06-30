@@ -62,7 +62,7 @@ function changeColor() {
     }
     setTimeout(function(){
         checkWin();
-    },5);
+    },50);
     
 }
 
