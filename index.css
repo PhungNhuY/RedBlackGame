@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+    display: flex;
+    font-family: Lato;
+    width: 15%;
+    margin: 0px auto;
+}
+
+.header_left{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding-right: 5px;
+    background-color: black;
+    color: red;
+    border-radius: 50% 0% 0% 50%;
+}
+
+.header_right{
+    height: 100%;
+    width: 50%;
+    padding-left: 5px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.game{
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.dot{
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
