@@ -3,7 +3,7 @@ var level = 0;
 
 
 // input level
-while(level <2 || level>10){
+while(level < 2 || level > 10){
     level = prompt("level(2-10):", "2");
 }
 
